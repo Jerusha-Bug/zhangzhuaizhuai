@@ -7,6 +7,8 @@ export const photographerInfo: PhotographerInfo = {
   biography: `zhuaizhuai 是一个好人，专注于研究情绪吸血鬼 —— 即人际关系中反复出现的情绪索取模式。该研究并不提供解决方案或治愈叙事，而是致力于识别这些模式，并通过认知与保持距离来实现自我保护。
 
 该研究遵循三个原则：观察、模式识别与边界意识。关注情绪失衡如何形成、如何在不同关系中重复出现，以及个体如何在不过度介入的前提下识别早期信号。`,
+  approach: "",
+  awards: [],
   clients: [
     "Vogue",
     "The New York Times",
@@ -20,6 +22,7 @@ export const photographerInfo: PhotographerInfo = {
   education: "MFA Photography, School of Visual Arts, New York",
   location: "New York, NY",
   email: "zhangzhuaizhuai@gmail.com",
+  phone: "",
   availability: "Currently booking for Q2 2025",
   socialLinks: {
     x: "https://x.com/Zhuaizhaui",
