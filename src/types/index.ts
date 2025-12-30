@@ -46,6 +46,7 @@ export interface PhotographerInfo {
     instagram?: string;
     linkedin?: string;
     behance?: string;
+    x?: string;
   };
   portraitImage: string;
 }
