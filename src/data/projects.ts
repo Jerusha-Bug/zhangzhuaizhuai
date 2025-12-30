@@ -11,7 +11,7 @@ import cat8 from '@/assets/portfolio/cat-8.jpg';
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Desert Solitude',
+    title: '瞪大眼睛',
     category: 'miaomiao',
     year: '2025',
     slug: 'desert-solitude',
@@ -22,7 +22,7 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'Urban Portraits',
+    title: '不敢睁开眼',
     category: 'miaomiao',
     year: '2025',
     slug: 'urban-portraits',
@@ -33,7 +33,7 @@ export const projects: Project[] = [
   },
   {
     id: '3',
-    title: 'Architectural Visions',
+    title: '伸懒腰',
     category: 'miaomiao',
     year: '2025',
     slug: 'architectural-visions',
@@ -44,7 +44,7 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'Fashion Forward',
+    title: '你瞅啥',
     category: 'miaomiao',
     year: '2025',
     slug: 'fashion-forward',
@@ -55,7 +55,7 @@ export const projects: Project[] = [
   },
   {
     id: '5',
-    title: 'Mountain Stories',
+    title: '怎么说',
     category: 'miaomiao',
     year: '2025',
     slug: 'mountain-stories',
@@ -66,7 +66,7 @@ export const projects: Project[] = [
   },
   {
     id: '6',
-    title: 'Coastal Light',
+    title: '在干嘛',
     category: 'miaomiao',
     year: '2025',
     slug: 'coastal-light',
@@ -77,7 +77,7 @@ export const projects: Project[] = [
   },
   {
     id: '7',
-    title: 'Studio Sessions',
+    title: '我俩世界第一好',
     category: 'miaomiao',
     year: '2025',
     slug: 'studio-sessions',
@@ -88,7 +88,7 @@ export const projects: Project[] = [
   },
   {
     id: '8',
-    title: 'City Lights',
+    title: '疲惫',
     category: 'miaomiao',
     year: '2025',
     slug: 'city-lights',
