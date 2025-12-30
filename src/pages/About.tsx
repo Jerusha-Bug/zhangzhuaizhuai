@@ -144,7 +144,7 @@ export default function About() {
                 {photographerInfo.biography.split('\n\n').map((paragraph, index) => (
                   <p
                     key={index}
-                    className="text-base md:text-lg font-light leading-relaxed text-muted-foreground"
+                    className="text-sm md:text-base font-light leading-loose text-muted-foreground"
                   >
                     {paragraph}
                   </p>
