@@ -7,15 +7,6 @@ export const photographerInfo: PhotographerInfo = {
   biography: `zhuaizhuai 是一个好人，专注于研究情绪吸血鬼 —— 即人际关系中反复出现的情绪索取模式。该研究并不提供解决方案或治愈叙事，而是致力于识别这些模式，并通过认知与保持距离来实现自我保护。
 
 该研究遵循三个原则：观察、模式识别与边界意识。关注情绪失衡如何形成、如何在不同关系中重复出现，以及个体如何在不过度介入的前提下识别早期信号。`,
-  approach: `My photography is guided by three principles: authenticity, composition, and light. I believe the best images emerge when subjects feel comfortable and genuine, when composition guides the viewer's eye naturally, and when light reveals the essence of the moment.
-
-Whether working on editorial assignments or commercial projects, I strive to create images that transcend their immediate purpose and become lasting visual statements.`,
-  awards: [
-    "International Photography Awards - Editorial Photographer of the Year 2023",
-    "PDN Photo Annual - Winner 2022",
-    "Hasselblad Masters Finalist 2021",
-    "Communication Arts Photography Annual 2020",
-  ],
   clients: [
     "Vogue",
     "The New York Times",
@@ -28,13 +19,10 @@ Whether working on editorial assignments or commercial projects, I strive to cre
   ],
   education: "MFA Photography, School of Visual Arts, New York",
   location: "New York, NY",
-  email: "hello@sarahmitchell.com",
-  phone: "+1 (555) 123-4567",
+  email: "zhangzhuaizhuai@gmail.com",
   availability: "Currently booking for Q2 2025",
   socialLinks: {
-    instagram: "https://instagram.com/sarahmitchellphoto",
-    linkedin: "https://linkedin.com/in/sarahmitchell",
-    behance: "https://behance.net/sarahmitchell",
+    x: "https://x.com/Zhuaizhaui",
   },
   // Photo by Joshua Sun on Unsplash
   portraitImage:
