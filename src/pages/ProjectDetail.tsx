@@ -41,9 +41,9 @@ export default function ProjectDetail() {
           <span>Back</span>
         </motion.button>
 
-        {/* Hero Image - 70vh */}
+        {/* Hero Image - 1:1 aspect ratio */}
         <motion.div
-          className="relative w-full h-[70vh] overflow-hidden bg-muted"
+          className="relative w-full max-w-4xl mx-auto aspect-square overflow-hidden bg-muted"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
@@ -55,8 +55,6 @@ export default function ProjectDetail() {
             loading="eager"
             fetchPriority="high"
           />
-          {/* Gradient overlay for depth */}
-          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
         </motion.div>
 
       {/* Project Info Section */}
