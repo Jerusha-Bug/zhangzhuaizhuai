@@ -20,7 +20,7 @@ export const photographerInfo: PhotographerInfo = {
     "Architectural Digest",
   ],
   education: "MFA Photography, School of Visual Arts, New York",
-  location: "New York, NY",
+  location: "China",
   email: "zhangzhuaizhuai@gmail.com",
   phone: "",
   availability: "Currently booking for Q2 2025",
