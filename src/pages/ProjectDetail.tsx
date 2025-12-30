@@ -1,6 +1,6 @@
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, Camera, User } from 'lucide-react';
+import { Calendar, MapPin, Camera, User, ArrowLeft } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { getProjectBySlug } from '@/data/projects';
@@ -11,6 +11,7 @@ import { getProjectBySlug } from '@/data/projects';
  */
 export default function ProjectDetail() {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const project = slug ? getProjectBySlug(slug) : undefined;
 
   // 404 if project not found
@@ -28,23 +29,35 @@ export default function ProjectDetail() {
       />
       
       <div className="min-h-screen">
+        {/* Back Button */}
+        <motion.button
+          onClick={() => navigate('/portfolio')}
+          className="fixed top-24 left-6 z-50 flex items-center gap-2 px-4 py-2 text-sm font-light tracking-wide border border-border bg-background/80 backdrop-blur-sm rounded-sm hover:bg-accent transition-colors"
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
+          <ArrowLeft className="size-4" />
+          <span>Back</span>
+        </motion.button>
+
         {/* Hero Image - 70vh */}
-      <motion.div
-        className="relative w-full h-[70vh] overflow-hidden bg-muted"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-      >
-        <img
-          src={project.coverImage}
-          alt={project.title}
-          className="w-full h-full object-cover"
-          loading="eager"
-          fetchPriority="high"
-        />
-        {/* Gradient overlay for depth */}
-        <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-      </motion.div>
+        <motion.div
+          className="relative w-full h-[70vh] overflow-hidden bg-muted"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
+        >
+          <img
+            src={project.coverImage}
+            alt={project.title}
+            className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+          />
+          {/* Gradient overlay for depth */}
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+        </motion.div>
 
       {/* Project Info Section */}
       <section className="max-w-4xl mx-auto px-6 lg:px-8 py-12 md:py-16">
