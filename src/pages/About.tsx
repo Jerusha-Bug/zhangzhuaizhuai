@@ -147,7 +147,7 @@ export default function About() {
               </div>
 
               {/* Contact Info - 底部对齐 */}
-              <div className="pt-4 space-y-2 mt-auto">
+              <div className="pt-4 space-y-2 mt-auto mb-4">
                 <div className="text-sm font-light tracking-wide">
                   <span className="text-muted-foreground">Email: </span>
                   <a
