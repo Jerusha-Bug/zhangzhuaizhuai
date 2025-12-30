@@ -105,7 +105,7 @@ export default function Contact() {
                   </div>
                   <div className="space-y-1">
                     <p className="text-sm font-light tracking-wide text-muted-foreground">
-                      X (Twitter)
+                      X
                     </p>
                     <a
                       href={photographerInfo.socialLinks.x}
