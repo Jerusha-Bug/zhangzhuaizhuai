@@ -93,14 +93,6 @@ export default function ProjectDetail() {
             </div>
           </div>
 
-          <Separator />
-
-          {/* Description */}
-          <div className="space-y-4">
-            <p className="text-lg md:text-xl font-light leading-relaxed text-foreground">
-              {project.description}
-            </p>
-          </div>
 
           {/* Technical Details */}
           <div className="grid md:grid-cols-2 gap-6 pt-4">
