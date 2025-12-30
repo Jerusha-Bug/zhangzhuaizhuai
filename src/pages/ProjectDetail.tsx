@@ -41,9 +41,9 @@ export default function ProjectDetail() {
           <span>Back</span>
         </motion.button>
 
-        {/* Hero Image - 1:1 aspect ratio */}
+        {/* Hero Image - 1:1 aspect ratio, full width */}
         <motion.div
-          className="relative w-full max-w-4xl mx-auto aspect-square overflow-hidden bg-muted"
+          className="relative w-full aspect-square overflow-hidden bg-muted"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
