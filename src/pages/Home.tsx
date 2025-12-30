@@ -95,7 +95,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-light tracking-wide">
               About My Work
             </h2>
-            <div className="space-y-4 text-sm md:text-base font-light leading-loose text-muted-foreground">
+            <div className="space-y-4 text-sm md:text-base font-light leading-[2.4] text-muted-foreground">
               <p>
                 {photographerInfo.biography.split('\n\n')[0]}
               </p>
