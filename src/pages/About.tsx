@@ -116,7 +116,7 @@ export default function About() {
 
             {/* Biography and Info */}
             <motion.div
-              className="space-y-8"
+              className="flex flex-col h-full"
               initial={{ opacity: 0.8, x: 10 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -132,10 +132,10 @@ export default function About() {
                 </p>
               </div>
 
-              <Separator />
+              <Separator className="my-8" />
 
               {/* Biography */}
-              <div className="space-y-4">
+              <div className="space-y-4 flex-1">
                 {photographerInfo.biography.split('\n\n').map((paragraph, index) => (
                   <p
                     key={index}
@@ -146,8 +146,8 @@ export default function About() {
                 ))}
               </div>
 
-              {/* Contact Info */}
-              <div className="pt-4 space-y-2">
+              {/* Contact Info - 底部对齐 */}
+              <div className="pt-4 space-y-2 mt-auto">
                 <div className="text-sm font-light tracking-wide">
                   <span className="text-muted-foreground">Email: </span>
                   <a
