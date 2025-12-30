@@ -135,11 +135,11 @@ export default function About() {
               <Separator className="my-8" />
 
               {/* Biography */}
-              <div className="space-y-8 flex-1">
+              <div className="space-y-4 flex-1">
                 {photographerInfo.biography.split('\n\n').map((paragraph, index) => (
                   <p
                     key={index}
-                    className="text-sm md:text-base font-light leading-[5] text-muted-foreground"
+                    className="text-sm md:text-base font-light leading-[2.4] text-muted-foreground"
                   >
                     {paragraph}
                   </p>
