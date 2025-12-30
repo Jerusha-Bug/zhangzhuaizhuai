@@ -22,7 +22,7 @@ export const photographerInfo: PhotographerInfo = {
   education: "MFA Photography, School of Visual Arts, New York",
   location: "China",
   email: "zhangzhuaizhuai@gmail.com",
-  phone: "",
+  phone: "13665692786",
   availability: "Currently booking for Q2 2025",
   socialLinks: {
     x: "https://x.com/Zhuaizhaui",
