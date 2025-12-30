@@ -1,12 +1,12 @@
 import type { PhotographerInfo } from "@/types";
 
 export const photographerInfo: PhotographerInfo = {
-  name: "zhuaizhuai",
-  tagline: "Editorial & Commercial Photographer",
-  heroIntroduction: "Creating visual narratives that capture authentic moments and timeless stories.",
-  biography: `Sarah Mitchell is an award-winning photographer specializing in editorial and commercial work, with recognition including the International Photography Awards Editorial Photographer of the Year 2023 and PDN Photo Annual Winner 2022. With over a decade of experience, her work has been featured in numerous international publications and exhibitions, collaborating with clients such as Vogue, The New York Times, National Geographic, Adobe, Apple, Nike, and Architectural Digest.
+  name: "zhuaizhuail",
+  tagline: "UI/UX Designer",
+  heroIntroduction: "研究人际关系中的情绪索取模式与自我保护",
+  biography: `zhuaizhuai 是一个好人，专注于研究情绪吸血鬼 —— 即人际关系中反复出现的情绪索取模式。该研究并不提供解决方案或治愈叙事，而是致力于识别这些模式，并通过认知与保持距离来实现自我保护。
 
-Based in New York with an MFA in Photography from the School of Visual Arts, Sarah brings a unique perspective to every project, combining technical excellence with artistic vision. Her approach to photography is deeply rooted in storytelling, believing that every image should convey emotion and meaning beyond its visual appeal.`,
+该研究遵循三个原则：观察、模式识别与边界意识。关注情绪失衡如何形成、如何在不同关系中重复出现，以及个体如何在不过度介入的前提下识别早期信号。`,
   approach: `My photography is guided by three principles: authenticity, composition, and light. I believe the best images emerge when subjects feel comfortable and genuine, when composition guides the viewer's eye naturally, and when light reveals the essence of the moment.
 
 Whether working on editorial assignments or commercial projects, I strive to create images that transcend their immediate purpose and become lasting visual statements.`,
