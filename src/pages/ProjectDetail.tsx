@@ -32,12 +32,12 @@ export default function ProjectDetail() {
         {/* Back Button */}
         <motion.button
           onClick={() => navigate('/portfolio')}
-          className="fixed top-24 left-6 z-50 flex items-center gap-2 px-4 py-2 text-sm font-light tracking-wide border border-border bg-background/80 backdrop-blur-sm rounded-sm hover:bg-accent transition-colors"
+          className="fixed top-24 left-6 z-50 flex items-center gap-2 px-4 py-2 text-base font-light tracking-wide text-foreground/70 hover:text-foreground transition-colors"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <ArrowLeft className="size-4" />
+          <ArrowLeft className="size-5" />
           <span>Back</span>
         </motion.button>
 
