@@ -57,16 +57,14 @@ export default function Home() {
             >
               <TextPressure
                 text={photographerInfo.name}
-                fontFamily="Roboto"
-                fontUrl="https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
                 flex={true}
                 alpha={false}
                 stroke={false}
-                width={false}
+                width={true}
                 weight={true}
-                italic={false}
+                italic={true}
                 textColor="#ffffff"
-                minFontSize={24}
+                minFontSize={36}
               />
             </motion.div>
             
