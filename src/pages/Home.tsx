@@ -50,21 +50,23 @@ export default function Home() {
           >
             {/* TextPressure Effect for Name */}
             <motion.div
-              className="h-[80px] md:h-[120px] lg:h-[150px] w-full max-w-4xl"
+              className="h-[60px] md:h-[80px] lg:h-[100px] w-full max-w-4xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
             >
               <TextPressure
                 text={photographerInfo.name}
+                fontFamily="Roboto"
+                fontUrl="https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
                 flex={true}
                 alpha={false}
                 stroke={false}
-                width={true}
+                width={false}
                 weight={true}
-                italic={true}
+                italic={false}
                 textColor="#ffffff"
-                minFontSize={36}
+                minFontSize={24}
               />
             </motion.div>
             
