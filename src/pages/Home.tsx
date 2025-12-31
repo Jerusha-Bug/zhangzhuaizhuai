@@ -48,10 +48,21 @@ export default function Home() {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <motion.h1
-              className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-widest text-white text-center"
+              className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-widest text-white text-center cursor-pointer select-none"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
+              whileHover={{ 
+                scaleY: 0.85,
+                scaleX: 1.1,
+                transition: { duration: 0.15 }
+              }}
+              whileTap={{ 
+                scaleY: 0.7,
+                scaleX: 1.2,
+                transition: { duration: 0.1 }
+              }}
+              style={{ transformOrigin: 'center' }}
             >
               {photographerInfo.name.toUpperCase()}
             </motion.h1>
