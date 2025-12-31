@@ -50,7 +50,7 @@ export default function Home() {
           >
             {/* TextPressure Effect for Name */}
             <motion.div
-              className="h-[60px] md:h-[80px] lg:h-[100px] w-full max-w-4xl"
+              className="h-[100px] md:h-[140px] lg:h-[180px] w-full max-w-5xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
@@ -64,7 +64,7 @@ export default function Home() {
                 weight={true}
                 italic={true}
                 textColor="#ffffff"
-                minFontSize={36}
+                minFontSize={48}
               />
             </motion.div>
             
