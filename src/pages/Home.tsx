@@ -8,6 +8,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import TextPressure from '@/components/ui/TextPressure';
 
 /**
  * Homepage with immersive hero section and featured projects grid
@@ -47,25 +48,25 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <motion.h1
-              className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-widest text-white text-center cursor-pointer select-none"
+            {/* TextPressure Effect for Name */}
+            <motion.div
+              className="h-[80px] md:h-[120px] lg:h-[150px] w-full max-w-4xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
-              whileHover={{ 
-                scaleY: 0.85,
-                scaleX: 1.1,
-                transition: { duration: 0.15 }
-              }}
-              whileTap={{ 
-                scaleY: 0.7,
-                scaleX: 1.2,
-                transition: { duration: 0.1 }
-              }}
-              style={{ transformOrigin: 'center' }}
             >
-              {photographerInfo.name.toUpperCase()}
-            </motion.h1>
+              <TextPressure
+                text={photographerInfo.name}
+                flex={true}
+                alpha={false}
+                stroke={false}
+                width={true}
+                weight={true}
+                italic={true}
+                textColor="#ffffff"
+                minFontSize={36}
+              />
+            </motion.div>
             
             <motion.p
               className="text-xl md:text-2xl font-light tracking-wide text-white/90"
