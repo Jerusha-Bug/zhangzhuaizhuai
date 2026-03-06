@@ -1,7 +1,7 @@
 import type { PhotographerInfo } from "@/types";
 
 export const photographerInfo: PhotographerInfo = {
-  name: "Zhangzhuaizhuai",
+  name: "Makkie",
   tagline: "UI/UX Designer",
   heroIntroduction: "研究人际关系中的情绪索取模式与自我保护",
   biography: `zhuaizhuai 是一个好人，专注于研究情绪吸血鬼 —— 即人际关系中反复出现的情绪索取模式。该研究并不提供解决方案或治愈叙事，而是致力于识别这些模式，并通过认知与保持距离来实现自我保护。
